@@ -3,6 +3,21 @@
 
 #2 
 
+
+
+
+
+a1,a2 = input().split()
+li1 = list(a1)*(int(a2))
+b1,b2 = input().split()
+li2 = list(b1)*(int(b2))
+li3 = li1+li2
+
+print(li3)
+
+
+
+
 #3
 #a,b = input("Input? ").split()
 #c,d = input("Input? ").split()
@@ -28,7 +43,7 @@
 # 6 공백을 사이에 두고 리스트를 입력 받아, 끝에서 두 번쨰 원소부터 앞에서 두 번째 원소까지 역순으로된 리스트를 출력하는 프로그램을 작성하라.
 # 단 입력되는 한 줄에는 공백이 4개 이상이다.
 
-li = []
-a =str(input()).split()
-li =list(a)
-print(a[-2:0:-1])
+# li = []
+# a =str(input()).split()
+# li =list(a)
+# print(a[-2:0:-1])
