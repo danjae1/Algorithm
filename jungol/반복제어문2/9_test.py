@@ -73,3 +73,24 @@
 # a >0
 # for i in range(a,(a*10)+1,a):
 #     print(i,end = ' ')
+
+#8
+
+#9
+
+# a=int(input())
+# for i in range(1,a+1):
+#     for j in range(1,a+1):
+#         print('(%d, %d)' % (i,j),end =' ')
+#     print()
+
+#10
+# 부터 9까지의 정수a와 b를 입력받아 a단부터 b단까지의 구구단을 차례대로 출력하는 프로그램을
+# 작성해라 구구단 사이의 공백은 3칸이다.
+a,b=list(map(int,input().split()))
+
+
+for i in range(a,b,-1):
+    for j in range(1,b,-1):
+        print('%d * %d = %-5d' % (i,j,i*j),end ='') 
+    print()
