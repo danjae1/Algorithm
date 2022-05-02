@@ -87,10 +87,3 @@
 #10
 # 부터 9까지의 정수a와 b를 입력받아 a단부터 b단까지의 구구단을 차례대로 출력하는 프로그램을
 # 작성해라 구구단 사이의 공백은 3칸이다.
-a,b=list(map(int,input().split()))
-
-
-for i in range(a,b,-1):
-    for j in range(1,b,-1):
-        print('%d * %d = %-5d' % (i,j,i*j),end ='') 
-    print()
