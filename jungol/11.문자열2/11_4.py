@@ -11,15 +11,14 @@
 #Elbow
 #Elegant
 #Elephant
-a=input().strip()
-b=input().strip()
-c=input().strip()
+# a=input().strip()
+# b=input().strip()
+# c=input().strip()
 
-if a<b :
-    if b<c or c>b:
-        print("YES")
-elif a<c:
-    if c<b or c>b:
-        print("YES")
-elif a>b or a>c:
-    print("NO")
+# if a<b :
+#     if b<c :
+#         print("YES")
+#     else:
+#         print("NO")
+# else:
+#     print("NO")
