@@ -9,9 +9,3 @@
 #입력받는 문자열의 길이는 100자 이하이다.
 #입력예 PROGRAM
 
-a=input()
-len_=len(a)
-
-for i in range(len_):
-    a = a[-1:7:-1] + a[0]
-    print(a)

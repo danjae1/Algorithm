@@ -9,6 +9,7 @@
 
 a = input().strip()
 len_=len(a)
-for i in range(len_):
+for i in range(len_-1):
     print(a[i],end=',')
+print(a[len_-1])
 

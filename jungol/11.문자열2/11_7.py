@@ -9,4 +9,4 @@
 # b = input().strip()
 # c = a.split(b)
 # for i in c:
-#     print(i.strip())
+#     print(i.strip())  
