@@ -17,6 +17,7 @@
 li=[]
 for _ in range(5):
     li.append(input().strip())
+    
 
 for a in li[::-1]:
     print(a)
