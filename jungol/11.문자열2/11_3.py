@@ -9,3 +9,9 @@
 #입력받는 문자열의 길이는 100자 이하이다.
 #입력예 PROGRAM
 
+a=input()
+l =len(a)
+
+for i in range(l):
+    a=a[l-1] + a[0:l-1]
+    print(a)

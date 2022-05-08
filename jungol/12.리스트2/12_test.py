@@ -17,8 +17,7 @@
 #         else:
 #             print("%d %d %d" % (li[-4], li[-3],li[-2]))
 #             break
-li=[0,1,2,3,4,5]
-print(*li[-3:])
+
 # 2 6명의 몸무게를 입력받아 평균을 출력하는 프로그램을 작성하시오. 풀력은 반올림하여 소수 첫째자리까지로 한다.
 #입력예 23.2 39.6 66.4 50.0 45.6 48.0
 #출력예 45.5
@@ -96,14 +95,16 @@ print(*li[-3:])
 #       4 5 10 30 50
 
 # a=list(map(int,input().split()))
-# l=len(a)
+# n=len(a)
 
-# for i in a:
-#     if i%2==0:
-#         i//2
-#     else: i*2
-
-# print(l)
+# print(n)
+# for i in  a:
+#     for j in range(n):
+#         if a[j]%2 ==0:
+#             print(a[j]//2,end=' ')
+#         else:
+#             print(a[j]*2,end=' ')
+#     break       
 
 
 
@@ -164,8 +165,27 @@ print(*li[-3:])
 #monitor            monitor
 #0
 
+# li=[]
+# flag=0
+# m="mo"
+# l=len(li)
+# while True:
+#     ch=input()
+#     li.append(ch.strip())
+#     if ch == '0':
+#         break
+
+
 
 #10. 5개의 단어를 입력받은 후 문자와 문자열을 한 개씩 입력받아 나중에 입력받은 문자나 문자열이 포함된
 # 단어를 모두 출력하는 프로그램을 작성하시오. (입력되는 단어나 문자열의 길이는 100자 이하이고, 찾는
 # 단어가 없으면 "none"라고 출력한다.)
 
+li=[]
+
+for i in range(7):
+    li.append(input().strip())
+
+for j in li:
+    if li[0] == li[6]:
+        print(li[j])
