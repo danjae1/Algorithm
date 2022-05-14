@@ -12,18 +12,19 @@
 # 입력예 62
 # 출력예 100 62 38 24 14 10 4 6 -2
 
-#a=input().strip()
-#a=int(a)
-#fibo = [a for i in range(101)]
-#fibo[1] = 100
-#fibo[2] = a
-#for i in range(3,101):
-#    fibo[i] = fibo[i-2] - fibo[i-1]
-    
+a=input().strip()
+a=int(a)
+fibo = [0 for i in range(101)]
+fibo[1] = 100
+fibo[2] = a
+for i in range(3,101):
+   fibo[i] = fibo[i-2] - fibo[i-1]
+   if fibo[i]<0:
+       break
 
-#for i in range(1,101):
-#    print(fibo[i],end=' ')
-#    if fibo[i] <0:
-#        break
+for i in range(1,101):
+   print(fibo[i],end=' ')
+   if fibo[i] <0:
+       break
 
 

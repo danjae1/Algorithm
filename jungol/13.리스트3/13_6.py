@@ -33,20 +33,21 @@
 # 출력예 1 8 21 32
 # 출력예 15 36 63 64
 
-a=[]
-for i in range(2):
-    a.append(list(map(int,input("first array").split())))
+# a=[]
+# for i in range(2):
+#     a.append(list(map(int,input("first array").split())))
 
-b=[]
-for i in range(2):
-    b.append(list(map(int,input("second array").split())))
+# b=[]
+# for i in range(2):
+#     b.append(list(map(int,input("second array").split())))
 
-c=[[0 for i in range(4)] for j in range(2)]
-for i in range(2):
-    for j in range(4):
-        c[i][j] = a[i][j] * b[i][j]
+# c=[[0 for i in range(4)] for j in range(2)]
+# for i in range(2):
+#     for j in range(4):
+#         c[i][j] = a[i][j] * b[i][j]
 
-for i in range(2):
-    for j in range(4):
-        print(c[i][j],end=' ')
-    print()
+# for i in range(2):
+#     for j in range(4):
+#         print(c[i][j],end=' ')
+#     print()
+

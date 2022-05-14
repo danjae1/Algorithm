@@ -21,4 +21,6 @@ li=list(map(int,input().split()))
 for num in li:
     cnt[num//10] +=1
 
-for i in range(10,-1,-1)
+for i in range(10):
+    if cnt[i]>0:
+        print(("%d : %d") % (i,cnt[i]))

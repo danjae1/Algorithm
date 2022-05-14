@@ -17,12 +17,15 @@
 #    if cnt >0:
 #        print("%d : %d개" % (i,cnt))
 
-#자가진단2, 영문 대문자를 한 줄로 입력받아 1번 이상 입력된 각 문자의 개수를 사전 순으로 출력하는 프로그램을 작성하시오.
+#자가진단2, 영문 대문자를 한 줄로 입력받아 1번 이상 입력된 각 문자의 개수를
+#  사전 순으로 출력하는 프로그램을 작성하시오.
 
+# li=[0 for i in range(26)]
+# a=list(input().split())
 
-a= list(map(str,input().split()))
-
-for i in range(1,27):
-    cnt =a.count(chr(i))
-    if cnt>0:
-        print("%d : %d" % (chr(i),cnt))
+# for i in a:
+#     li[ord(i)-65] +=1
+    
+# for j in range(26):
+#     if li[j]>0:
+#         print(("%s : %d") % (chr(j+65),li[j]))
