@@ -76,6 +76,7 @@ for i in a:
         dic[i]+=1
     else: 
         dic[i]=1
+        
 
 for i,bb in dic.items():
     if min_>=bb:

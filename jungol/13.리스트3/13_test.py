@@ -126,3 +126,57 @@
 #입력예 39 100          출력예 33 58
 #입력예 19 88           출력예 46
 #입력예 61 20           출력예
+
+# a=[]
+# for i in range(4):
+#     a.append(list(map(int,input().split())))
+# cnt=0
+# sero1=0
+# sero2=0
+
+# for i in range(4):
+#     for j in range(1):
+#         print((a[i][j] + a[i][j+1])//2,end=' ')
+# print()
+
+# for i in range(4):
+#     sero1+= a[i][0]
+#     sero2+= a[i][1]
+# print(('%d %d') % (sero1//4, sero2//4),end=' ')
+
+# for i in range(4):
+#     for j in range(2):
+#         cnt+=(a[i][j])
+# avg=cnt//8
+# print()
+# print(avg)
+
+
+#형성평가11
+# a=int(input())
+
+# pas = [[0 for i in range(a+1)] for j in range(a+1)]
+
+# for i in range(1,a+1):
+#     pas[i][1]=1
+
+# for i in range(a-1,0,-1):
+#     for j in range(2,a+1):
+#         pas[i][j] = pas[i+1][j-1] + pas[i+1][j] 
+
+# for i in range(1,a+1):
+#     for j in range(1,(a+2)-i):
+#         print(pas[i][j],end=' ')
+#     print()
+
+#형성평가 12
+
+# a=[]
+
+# for i in range(3):
+#     a.append(input().split())
+
+# for i in range(3):
+#     for j in range(5):
+#        print(chr(ord(a[i][j])+32),end=' ')
+#     print()
